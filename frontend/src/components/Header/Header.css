@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0AA6FF;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}   
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left : -80px;
+}
+.search-bar{
+    display: flex;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+}
+
+.search-bar input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.user-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}

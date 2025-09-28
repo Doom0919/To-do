@@ -1,0 +1,114 @@
+.menu{
+    padding: 25px 0 5px 0;
+    width: 250px;
+    height: 656px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.img{
+    width: 100px;
+    background-color: #000;
+}
+.menu input{
+    font-size: 14px;
+    padding: 10px 0 10px 20px;
+}
+.height{
+    display: flex;
+    height: 100%;
+}
+
+.addlist{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 45px;
+}
+
+.line{
+    
+    border: none;          /* remove default styles */
+    border-top: 1px solid #000; /* black line */
+    margin: 8px 20px; 
+    top: 1000px;
+}
+.handle-menu li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+}
+
+.handle-menu li:hover{
+    background-color: #E0E0E0;
+}
+.addlist input{
+    font-size: 14px;
+    color:#0AA6FF ;
+    border: none;
+    outline: none;
+    width: 140px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 24px;
+}
+
+.addlist input:hover{
+    background-color: #E0E0E0;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn:hover{
+   background-color: #E0E0E0;
+}
+.addlist input:focus{
+    background-color: #E0E0E0;
+}
+
+
+.fixed{
+    margin: 25px 0 0 25px;
+    position: absolute;
+}
+
+
+
+.menuItems{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+   width: 0 ;
+}
+
+.link{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   height: 50px;
+}
+.link-me svg {
+  color: black;  /* reset icon color */
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:initial;
+}
+.link-me:hover{
+    background-color: #E0E0E0;
+}
