@@ -1,5 +1,5 @@
 .menu{
-    padding: 25px 0 5px 0;
+    padding: 25px 0 0px 0;
     width: 250px;
     height: 656px;
     background-color: white;
@@ -8,10 +8,14 @@
     justify-content: space-between;
     overflow-y: auto;
     overflow-x: hidden;
+    border: 1px solid red;
 }
 .img{
-    width: 100px;
-    background-color: #000;
+    height: 60px;
+    width: 234px;
+    z-index: 100;
+    background-color: white;
+    position: absolute;
 }
 .menu input{
     font-size: 14px;
@@ -26,7 +30,11 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 45px;
+    height: 60px;
+    position: sticky;
+    bottom: 24px;
+    padding-bottom: 10px;
+    background-color: white;
 }
 
 .line{
@@ -97,7 +105,10 @@
 .link{
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   height: 50px;
+   height: 40px;
+   position: sticky;
+   bottom: 0;
+   background-color: white;
 }
 .link-me svg {
   color: black;  /* reset icon color */
